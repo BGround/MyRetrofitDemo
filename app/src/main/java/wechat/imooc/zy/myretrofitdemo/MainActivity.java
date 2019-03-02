@@ -59,22 +59,22 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //发送异步请求
-//        call.enqueue(new Callback<UserInfoModel>() {
-//            @Override
-//            public void onResponse(Call<UserInfoModel> call, Response<UserInfoModel> response) {
-//                try {
-//                    Response<UserInfoModel> response2 = call.execute();
-//                } catch (IOException e) {
-//                    e.printStackTrace();
-//                }
-//                Toast.makeText(getApplicationContext(),"response = "+response.body().toString(),Toast.LENGTH_SHORT).show();
-//            }
-//
-//            @Override
-//            public void onFailure(Call<UserInfoModel> call, Throwable t) {
-//
-//            }
-//        });
+        call.enqueue(new Callback<UserInfoModel>() {
+            @Override
+            public void onResponse(Call<UserInfoModel> call, Response<UserInfoModel> response) {
+                try {
+                    Response<UserInfoModel> response2 = call.execute();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                Toast.makeText(getApplicationContext(),"response = "+response.body().toString(),Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onFailure(Call<UserInfoModel> call, Throwable t) {
+
+            }
+        });
 
     }
 }

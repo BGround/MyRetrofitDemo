@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyRetrofitDemo.iml" filepath="$PROJECT_DIR$/MyRetrofitDemo.iml" />
+      <module fileurl="file://E:\github_my\MyRetrofitDemo\MyRetrofitDemo.iml" filepath="E:\github_my\MyRetrofitDemo\MyRetrofitDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\github_my\MyRetrofitDemo\app\app.iml" filepath="E:\github_my\MyRetrofitDemo\app\app.iml" />
     </modules>
   </component>
 </project>
